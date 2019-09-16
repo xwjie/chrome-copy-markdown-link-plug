@@ -55,7 +55,7 @@ chrome.contextMenus.create({
 				console.dir(tab);
 				// chrome.tabs.sendRequest(tab.id,jsonData, callBack);
 				copyText(extractLink(tab))
-					.then(msgbox('Copy Success!'));
+					.then( () => msgbox('Copy Success!'));
 			})
 		}
 	});
