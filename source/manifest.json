@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Copy MarkDown link",
+	"version": "1.0.0",
+	"description": "Copy MarkDown Link Context Menu",
+	"icons": {
+		"16": "img/icon.png",
+		"32": "img/icon.png",
+		"48": "img/icon.png",
+		"128": "img/icon.png"
+	},
+	"homepage_url": "https://github.com/xwjie",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"notifications",
+		"clipboardWrite",
+		"contextMenus",
+		"activeTab"
+	]
+}
